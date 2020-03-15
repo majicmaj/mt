@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+}
+.red {
+  color: #ff3636;
+}
+
+.grey {
+  color: #303030;
+}
+.lightgrey {
+  color: #484848;
+}
+.white {
+  color: #fff;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  min-height: 100vh;
+}
+.left {
+  width: 300px;
+  min-width: 300px;
+  /* border: 1px solid red; */
+  height: 300px;
+  margin: 0 50px;
+}
+.brother {
+  font-family: brother-1816, sans-serif;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo h1 {
+  font-size: 40px;
+}
+.title {
+  position: relative;
+  top: -50px;
+}
+.title .name {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.title .job {
+  position: relative;
+  top: -30px;
+  font-size: 20px;
+}
+
+.bio {
+  position: relative;
+  top: -80px;
+  font-size: 18px;
+}
+.bio .projects {
+  position: relative;
+  top: -20px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  position: relative;
+  top: -100px;
+}
+
+.links .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #303030;
+}
+
+.links .link i {
+  font-size: 40px;
+  color: inherit;
+}
+
+.links .link .free {
+  font-size: 20px;
+  position: relative;
+  top: -75px;
+  color: white;
+}
+
+.links .link p {
+  position: relative;
+  top: -15px;
+  color: inherit;
+}
+.links .link:hover,
+.links .link:focus {
+  color: #ff3636;
+}
+.right {
+  max-height: 100vh;
+  overflow-y: scroll;
+  width: 100%;
+}
+.project {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  border-radius: 12px;
+  margin: 10px;
+  height: 200px;
+  max-height: 200px;
+  width: 100%;
+}
+.project img {
+  border-radius: 12px 0 0 12px;
+  margin-right: 10px;
+  min-width: 200px;
+  width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+}
+.project .description {
+  overflow-y: scroll;
+  width: 100%;
+}
+.project .description h2 {
+  font-size: 22px;
+}
+.project .buttons {
+  display: flex;
+}
+.project .buttons a {
+  color: white;
+  text-decoration: none;
+  background: #303030;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 5px 8px;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+}
+.project .buttons a:hover,
+.project .buttons a:focus {
+  background: #ff3636;
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+  }
+  .project {
+    height: 125px;
+  }
+  .project img {
+    height: 125px;
+    min-width: 125px;
+    width: 125px;
+  }
+  .project .description h2 {
+    font-size: 16px;
+  }
+  .project .description p {
+    font-size: 12px;
+    /* height: 0; */
+    /* display: none; */
+  }
+  .project .description a {
+    font-size: 12px;
+  }
+}
