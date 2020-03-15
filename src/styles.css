@@ -1,6 +1,15 @@
 body {
   margin: 0;
 }
+::-webkit-scrollbar {
+  width: 0.4em;
+}
+::-webkit-scrollbar-track {
+  background: #303030;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff3636;
+}
 .red {
   color: #ff3636;
 }
@@ -105,6 +114,9 @@ body {
 .right {
   max-height: 100vh;
   overflow-y: scroll;
+  scrollbar-color: #ff3636 #484848;
+  scrollbar-width: thin;
+  overflow-x: hidden;
   width: 100%;
 }
 .project {
@@ -114,7 +126,7 @@ body {
   margin: 10px;
   height: 200px;
   max-height: 200px;
-  width: 100%;
+  /* width: 100%; */
 }
 .project img {
   border-radius: 12px 0 0 12px;
@@ -125,7 +137,9 @@ body {
   object-fit: cover;
 }
 .project .description {
-  overflow-y: scroll;
+  overflow-y: auto;
+  scrollbar-color: #484848 #fff;
+  scrollbar-width: thin;
   width: 100%;
 }
 .project .description h2 {
