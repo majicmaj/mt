@@ -20,7 +20,7 @@ export default function App() {
         <div className="bio">
           <p className="lightgrey">I make software and other cool things.</p>
           <p className="projects lightgrey">
-            Take a look at my<span className="red">projects</span>.
+            Take a look at my <span className="red">projects</span>.
           </p>
         </div>
         {/* Links */}

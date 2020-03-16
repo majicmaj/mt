@@ -45,6 +45,8 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  animation: appear 2s forwards;
+  opacity: 0;
 }
 .logo h1 {
   font-size: 40px;
@@ -52,6 +54,8 @@ body {
 .title {
   position: relative;
   top: -50px;
+  animation: appear 2s forwards;
+  opacity: 0;
 }
 .title .name {
   font-size: 28px;
@@ -68,6 +72,8 @@ body {
   position: relative;
   top: -80px;
   font-size: 18px;
+  animation: appear 2s forwards 1s;
+  opacity: 0;
 }
 .bio .projects {
   position: relative;
@@ -80,6 +86,8 @@ body {
   font-size: 14px;
   position: relative;
   top: -100px;
+  opacity: 0;
+  animation: appear 2s forwards 2s;
 }
 
 .links .link {
@@ -127,6 +135,9 @@ body {
   height: 200px;
   max-height: 200px;
   /* width: 100%; */
+  position: relative;
+  animation: slide 1.5s forwards 3s;
+  opacity: 0;
 }
 .project img {
   border-radius: 12px 0 0 12px;
@@ -135,15 +146,26 @@ body {
   width: 200px;
   max-height: 200px;
   object-fit: cover;
+  opacity: 0;
+  animation: appear 2s forwards 4s;
 }
 .project .description {
   overflow-y: auto;
   scrollbar-color: #484848 #fff;
   scrollbar-width: thin;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
+  margin: 10px 0;
 }
 .project .description h2 {
   font-size: 22px;
+  margin: 0;
+}
+.project .description p {
+  margin: 0;
 }
 .project .buttons {
   display: flex;
@@ -177,15 +199,40 @@ body {
     min-width: 125px;
     width: 125px;
   }
+  .description {
+    height: 115px;
+    margin: 5px 0;
+    /* border: 1px solid red; */
+  }
   .project .description h2 {
-    font-size: 16px;
+    font-size: 14px;
+    margin: 0;
   }
   .project .description p {
-    font-size: 12px;
+    font-size: 11px;
+    margin: 0;
     /* height: 0; */
     /* display: none; */
   }
   .project .description a {
     font-size: 12px;
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    left: -100vw;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
   }
 }
