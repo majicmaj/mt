@@ -204,8 +204,8 @@ body {
     width: 125px;
   }
   .description {
-    height: 115px;
-    margin: 5px 0;
+    height: 115px !important;
+    margin: 5px 0 !important;
     /* border: 1px solid red; */
   }
   .project .description h2 {
