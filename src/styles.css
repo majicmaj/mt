@@ -152,7 +152,7 @@ body {
   animation: appear 1s forwards 2s;
 }
 .project .description {
-  overflow-y: auto;
+  /* overflow-y: auto; */
   scrollbar-color: #484848 #fff;
   scrollbar-width: thin;
   width: 100%;
@@ -180,7 +180,6 @@ body {
   margin-right: 10px;
   padding: 5px 8px;
   font-size: 18px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   animation: 0.4s greyrover forwards;
 }
 .project .buttons a:hover,
@@ -189,7 +188,7 @@ body {
   /* background: #ff3636; */
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 868px) {
   .App {
     flex-direction: column;
     justify-content: flex-start;
@@ -207,6 +206,9 @@ body {
     height: 115px !important;
     margin: 5px 0 !important;
     /* border: 1px solid red; */
+  }
+  .description .buttons {
+    justify-content: flex-end;
   }
   .project .description h2 {
     font-size: 14px;

@@ -31,7 +31,7 @@ export default function App() {
             className="link"
           >
             <i className="fab fa-linkedin" />
-            <p className="name grey">linkedin</p>
+            <p className="name grey">Linkedin</p>
           </a>
           <a
             target="_blank"
@@ -39,7 +39,7 @@ export default function App() {
             className="link"
           >
             <i className="fab fa-github-square" />
-            <p className="name grey">github</p>
+            <p className="name grey">Github</p>
           </a>
           <a
             target="_blank"
@@ -47,7 +47,7 @@ export default function App() {
             className="link"
           >
             <i className="fas fa-envelope-square" />
-            <p className="name grey">email</p>
+            <p className="name grey">Email</p>
           </a>
           <a
             target="_blank"
@@ -55,7 +55,7 @@ export default function App() {
             className="link"
           >
             <i className="fas fa-square" />
-            <p className="name grey">resume</p>
+            <p className="name grey">Resume</p>
             <i className="fas fa-file free white" />
           </a>
         </div>
@@ -71,9 +71,9 @@ export default function App() {
               generation built with processing
             </p>
             <div className="buttons">
-              <a href="https://github.com/majicmaj/data_visiualization">Repo</a>
+              <a href="https://github.com/majicmaj/data_visiualization">REPO</a>
               <a href="https://www.youtube.com/watch?v=GwPkL6ZW1K4&feature=youtu.be">
-                Demo
+                DEMO
               </a>
             </div>
           </div>
@@ -88,9 +88,9 @@ export default function App() {
             </p>
             <div className="buttons">
               <a href="https://github.com/majicmaj/lol-builder/tree/master/lolclient">
-                Repo
+                REPO
               </a>
-              <a href="https://lolbuilder.netlify.com/">Demo</a>
+              <a href="https://lolbuilder.netlify.com/">DEMO</a>
             </div>
           </div>
         </div>
@@ -103,8 +103,8 @@ export default function App() {
               shop.
             </p>
             <div className="buttons">
-              <a href="https://github.com/majicmaj/SilverShack">Repo</a>
-              <a href="https://silvershackcoins.netlify.com/">Demo</a>
+              <a href="https://github.com/majicmaj/SilverShack">REPO</a>
+              <a href="https://silvershackcoins.netlify.com/">DEMO</a>
             </div>
           </div>
         </div>
@@ -117,9 +117,9 @@ export default function App() {
               create, read, update, and delete request calls
             </p>
             <div className="buttons">
-              <a href="https://lolbuilder.herokuapp.com/">Repo</a>
+              <a href="https://lolbuilder.herokuapp.com/">REPO</a>
               <a href="https://github.com/majicmaj/lol-builder/tree/master/server">
-                Demo
+                DEMO
               </a>
             </div>
           </div>
@@ -134,8 +134,8 @@ export default function App() {
               Html, CSS, and Javascript.
             </p>
             <div className="buttons">
-              <a href="https://github.com/majicmaj/rocketball">Repo</a>
-              <a href="https://majicmaj.github.io/">Demo</a>
+              <a href="https://github.com/majicmaj/rocketball">REPO</a>
+              <a href="https://majicmaj.github.io/">DEMO</a>
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@ export default function App() {
               gameplay.
             </p>
             <div className="buttons">
-              <a href="https://github.com/majicmaj/majcraft">Repo</a>
+              <a href="https://github.com/majicmaj/majcraft">REPO</a>
             </div>
           </div>
         </div>
