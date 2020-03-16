@@ -96,6 +96,7 @@ body {
   align-items: center;
   text-decoration: none;
   color: #303030;
+  animation: 0.4s greyrover2 forwards;
 }
 
 .links .link i {
@@ -118,6 +119,7 @@ body {
 .links .link:hover,
 .links .link:focus {
   color: #ff3636;
+  animation: 0.4s redrover2 forwards;
 }
 .right {
   max-height: 100vh;
@@ -179,10 +181,12 @@ body {
   padding: 5px 8px;
   font-size: 18px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  animation: 0.4s greyrover forwards;
 }
 .project .buttons a:hover,
 .project .buttons a:focus {
-  background: #ff3636;
+  animation: 0.4s redrover forwards;
+  /* background: #ff3636; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -234,5 +238,37 @@ body {
   100% {
     opacity: 1;
     left: 0;
+  }
+}
+@keyframes redrover {
+  0% {
+    background: #303030;
+  }
+  100% {
+    background: #ff3636;
+  }
+}
+@keyframes greyrover {
+  0% {
+    background: #ff3636;
+  }
+  100% {
+    background: #303030;
+  }
+}
+@keyframes redrover2 {
+  0% {
+    color: #303030;
+  }
+  100% {
+    color: #ff3636;
+  }
+}
+@keyframes greyrover2 {
+  0% {
+    color: #ff3636;
+  }
+  100% {
+    color: #303030;
   }
 }
