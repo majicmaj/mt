@@ -63,6 +63,18 @@ export default function App() {
       {/* Right */}
       <div className="right">
         <div className="project">
+          <img src="https://i.imgur.com/wCXB69T.png" alt="200px" />
+          <div className="description">
+            <h2 className="grey">Contact Entry System</h2>
+            <p className="lightgrey">
+              REST API that allows for CRUD operations on a Contact Entry System
+            </p>
+            <div className="buttons">
+              <a href="https://github.com/majicmaj/contactEntrySystem">REPO</a>
+            </div>
+          </div>
+        </div>
+        <div className="project">
           <img src="https://i.imgur.com/mUfKI72.png" alt="200px" />
           <div className="description">
             <h2 className="grey">Perlin Noise Algorithm Visualization</h2>
