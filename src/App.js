@@ -27,6 +27,7 @@ export default function App() {
         <div className="links grey">
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://www.linkedin.com/in/majdtarbin/"
             className="link"
           >
@@ -35,6 +36,7 @@ export default function App() {
           </a>
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://github.com/majicmaj"
             className="link"
           >
@@ -43,6 +45,7 @@ export default function App() {
           </a>
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="mailto:majd.tarbin@outlook.com"
             className="link"
           >
@@ -51,6 +54,7 @@ export default function App() {
           </a>
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://docs.google.com/document/d/1uw7_gVxiDBU9Mhz8NAGxev6NMSL-kn0OaPv8t0zYxlE/edit?usp=sharing"
             className="link"
           >
