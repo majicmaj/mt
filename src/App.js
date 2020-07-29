@@ -67,6 +67,18 @@ export default function App() {
       {/* Right */}
       <div className="right">
         <div className="project">
+          <img src="https://i.imgur.com/kutunfK.png" alt="Sky Guide" />
+          <div className="description">
+            <h2 className="grey">Sky Guide</h2>
+            <p className="lightgrey">
+              Weather App oriented around Stargazers and Astronomers.
+            </p>
+            <div className="buttons">
+              <a href="https://skyguide.netlify.app/">DEMO</a>
+            </div>
+          </div>
+        </div>
+        <div className="project">
           <img src="https://i.imgur.com/wCXB69T.png" alt="200px" />
           <div className="description">
             <h2 className="grey">Contact Entry System</h2>
