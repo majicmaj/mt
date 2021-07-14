@@ -67,6 +67,19 @@ export default function App() {
       {/* Right */}
       <div className="right">
         <div className="project">
+          <img src="https://i.imgur.com/OkSQ4s9.png" alt="Skyguide.me" />
+          <div className="description">
+            <h2 className="grey">SkyGuide.me</h2>
+            <p className="lightgrey">
+              The second iternation of my Sky Guide Weather App as a Progressive
+              Web App. Skyguide.me caters to casual and enuthiast users alike.
+            </p>
+            <div className="buttons">
+              <a href="https://www.skyguide.me/">DEMO</a>
+            </div>
+          </div>
+        </div>
+        <div className="project">
           <img src="https://i.imgur.com/kutunfK.png" alt="Sky Guide" />
           <div className="description">
             <h2 className="grey">Sky Guide</h2>
